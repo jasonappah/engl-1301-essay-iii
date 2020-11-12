@@ -57,15 +57,13 @@ div {
 }
 
 #essay {
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh 10vw;
   background-color: #f7f6f5;
+  line-height: 170%;
 }
 
 .emphasis-block {
-  margin: 10px 0px;
+  margin: 2vh 0px;
   border-radius: 10px;
   padding: 30px;
   background-color: rgba(66, 32, 4, 1);
@@ -78,4 +76,14 @@ div {
   margin: 20px 0px;
   border-left: 0.5vw solid #10a7e3;
   padding-left: 30px;
+}
+
+@media screen and (min-width: 900px) {
+  #essay {
+    padding: 10vh 20vw;
+  }
+
+  .quote-block {
+    border-left: 0.25vw solid #10a7e3;
+  }
 }
