@@ -1,0 +1,81 @@
+#header-bg {
+  height: 50vh;
+  background: 
+    /* top, transparent red, faked with gradient */ radial-gradient(
+      rgba(66, 32, 4, 0.9) 100%,
+      rgba(66, 32, 4, 0.9) 100%
+    ),
+    /* bottom, image */ url("../img/tim-gouw-1K9T5YiZ2WU-unsplash.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #edeceb;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#creds {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgba(66, 32, 4, 1);
+}
+
+#header h1,
+#header h3 {
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1vh;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Crimson Text", serif;
+}
+
+div {
+  padding: 0px;
+  margin: 0px;
+}
+
+#creds a {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}
+
+#essay {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #f7f6f5;
+}
+
+.emphasis-block {
+  margin: 10px 0px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgba(66, 32, 4, 1);
+  color: white;
+  font-weight: regular;
+  font-style: normal;
+}
+
+.quote-block {
+  margin: 20px 0px;
+  border-left: 0.5vw solid #10a7e3;
+  padding-left: 30px;
+}
