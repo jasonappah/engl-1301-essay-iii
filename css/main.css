@@ -87,3 +87,7 @@ div {
     border-left: 0.25vw solid #10a7e3;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
