@@ -1,17 +1,17 @@
 #header-bg {
   height: 50vh;
-  background: 
-    /* top, transparent red, faked with gradient */ radial-gradient(
+  background-color: brown;
+  background: radial-gradient(
       rgba(66, 32, 4, 0.9) 100%,
       rgba(66, 32, 4, 0.9) 100%
     ),
-    /* bottom, image */ url("../img/tim-gouw-1K9T5YiZ2WU-unsplash.jpg");
+    url("../img/tim-gouw-1K9T5YiZ2WU-unsplash.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #edeceb;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -68,9 +68,7 @@ div {
   padding: 30px;
   background-color: rgba(66, 32, 4, 1);
   color: white;
-  font-weight: regular;
   font-style: normal;
-  padding-bottom: 0vh;
 }
 
 .quote-block {
@@ -80,9 +78,18 @@ div {
   padding-bottom: 0vh;
 }
 
-.quote-block > h2,
-.emphasis-block > h2 {
-  font-weight: 400;
+html {
+  scroll-behavior: smooth;
+}
+
+#essay h2 {
+  padding-bottom: 2vh;
+  font-weight: normal;
+}
+
+div.quote-block > h2,
+div.emphasis-block > h2 {
+  font-weight: 600 !important;
 }
 
 @media screen and (min-width: 900px) {
@@ -93,13 +100,4 @@ div {
   .quote-block {
     border-left: 0.25vw solid #10a7e3;
   }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-#essay h2 {
-  padding-bottom: 2vh;
-  font-weight: normal;
 }
