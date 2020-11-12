@@ -101,3 +101,17 @@ div.emphasis-block > h2 {
     border-left: 0.25vw solid #10a7e3;
   }
 }
+
+.h {
+  background-color: cornsilk;
+  color: black;
+  font-weight: normal;
+}
+
+.sources {
+  background-color: #10a7e3;
+}
+
+h4 > a {
+  color: white;
+}
