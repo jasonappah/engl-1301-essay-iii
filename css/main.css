@@ -70,12 +70,19 @@ div {
   color: white;
   font-weight: regular;
   font-style: normal;
+  padding-bottom: 0vh;
 }
 
 .quote-block {
   margin: 20px 0px;
   border-left: 0.5vw solid #10a7e3;
   padding-left: 30px;
+  padding-bottom: 0vh;
+}
+
+.quote-block > h2,
+.emphasis-block > h2 {
+  font-weight: 400;
 }
 
 @media screen and (min-width: 900px) {
@@ -90,4 +97,9 @@ div {
 
 html {
   scroll-behavior: smooth;
+}
+
+#essay h2 {
+  padding-bottom: 2vh;
+  font-weight: normal;
 }
