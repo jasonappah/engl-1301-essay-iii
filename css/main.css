@@ -31,7 +31,7 @@
 
 #root {
   display: flex;
-  width: 100%;
+  width: 100vw;
   flex-direction: column;
 }
 
@@ -41,8 +41,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+a {
   font-family: "Crimson Text", serif;
+  overflow-wrap: break-word;
 }
 
 div {
@@ -114,4 +116,8 @@ div.emphasis-block > h2 {
 
 h4 > a {
   color: white;
+}
+
+.indent {
+  padding-left: 4vw;
 }
