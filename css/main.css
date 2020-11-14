@@ -31,7 +31,7 @@
 
 #root {
   display: flex;
-  width: 100vw;
+  /* width: 100%; */
   flex-direction: column;
 }
 
@@ -95,12 +95,12 @@ div.emphasis-block > h2 {
 }
 
 @media screen and (min-width: 900px) {
-  #essay {
-    padding: 10vh 20vw;
-  }
-
   .quote-block {
     border-left: 0.25vw solid #10a7e3;
+  }
+
+  #essay {
+    padding: 10vh 15vw;
   }
 }
 
@@ -116,8 +116,4 @@ div.emphasis-block > h2 {
 
 h4 > a {
   color: white;
-}
-
-.indent {
-  padding-left: 4vw;
 }
